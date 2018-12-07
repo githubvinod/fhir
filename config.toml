@@ -1,0 +1,18 @@
+baseURL = "/"
+languageCode = "en-US"
+defaultContentLanguage = "en"
+
+title = "FHIR Hunt"
+theme = "netspective-docdock"
+metaDataFormat = "yaml"
+defaultContentLanguageInSubdir = true
+
+[params]
+  themeVariant = "fhir"
+  themeVariantSidebarMastheadLogo = "/images/branding/main-masthead-logo-for-dark-bg.png"
+  description = "Strategy and Planning"
+  author = "Valere JEANTET"
+  showVisitedLinks = true
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
